@@ -6,5 +6,5 @@
 # Deliverables
 # Plan
 # Team members
-*Damian O'Keefe
-*Michael Depietro
+*Damian O'Keefe <br />
+*Michael Depietro <br />
