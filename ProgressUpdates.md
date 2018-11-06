@@ -28,3 +28,7 @@
 
 ### Any blocking issues/challenges need to be addressed?
 ...
+
+# Comments
+1. Missing updates for Week 2. Add it ASAP
+2. Organize your code better by moving source code to a folder (src), and have client and server in separate folders
