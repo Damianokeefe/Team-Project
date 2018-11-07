@@ -21,14 +21,16 @@
 ## Week 2 (Nov 5 - Nov 12)
 
 ### What did your team do last week?
-...
+* Further formatting changes
+* Updated rudimentary console chat
 
 ### What will you do this week?
-...
+* Work on getting screen-names instead of addresses
+* Work on getting GUI to work
 
 ### Any blocking issues/challenges need to be addressed?
-...
+* Still fixing the issue of program only being runnable in emulation
 
 # Comments
-1. Missing updates for Week 2. Add it ASAP
+1. Missing updates for Week 2. Add it ASAP (Resolved)
 2. Organize your code better by moving source code to a folder (src), and have client and server in separate folders
