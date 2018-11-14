@@ -34,3 +34,16 @@
 # Comments
 1. Missing updates for Week 2. Add it ASAP (Resolved)
 2. Organize your code better by moving source code to a folder (src), and have client and server in separate folders
+
+## Week 3 (Nov 12 - Nov 19)
+
+### What did your team do last week?
+* Break from work for a busy week
+
+### What will you do this week?
+* Same as previous week's plans
+* Work on getting screen-names instead of addresses
+* Work on getting GUI to work
+
+## Any blocking issues/challenges need to be addressed?
+* Same as last week, only runnable in emulation of Linux
