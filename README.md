@@ -36,5 +36,5 @@ Week 6: Be ready to deliver a fully functional chat program. <br />
 - Emoji
 - Screen-names
 ## Demo Video
-
+https://sommol.tinytake.com/sf/MzEyMjMyMF85MzU3ODIy
 
