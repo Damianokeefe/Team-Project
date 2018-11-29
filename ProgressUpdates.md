@@ -47,3 +47,32 @@
 
 ## Any blocking issues/challenges need to be addressed?
 * Same as last week, only runnable in emulation of Linux
+
+## Week 4 (Nov 19 - Nov 26)
+
+### What did your team do last week?
+* Tried and failed to get screen names and GUI to work
+* Several new iterations of client and server failed
+
+### What will you do this week?
+* Try and fix everything we did wrong prior
+* Remake it all again
+* Enjoy Thanksgiving
+
+## Any blocking issues/challenges need to be addressed?
+* Still only runnable in Linux, not sure how to fix
+
+## Final Week (Nov 26 - Nov 29)
+
+### What did your team do last week?
+* Attempted to work on the project, couldn't get anywhere with current version
+* Decided that we needed to start from the ground up to be done on time
+
+### What will you do this week?
+* Work hard to get a presentable project for Thursday
+* Get GUI and emojis working properly
+
+## Any blocking issues/challenges need to be addressed?
+* We're on a very tight schedule, so we'll need to work hard to get done what we need
+
+
