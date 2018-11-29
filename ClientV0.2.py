@@ -2,7 +2,7 @@ from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 import tkinter as tk
 from tkinter import *
-from PIL import Image
+#from PIL import Image
 
 #Clear msg field
 def clear(event):
@@ -21,49 +21,49 @@ def receive():
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=joy)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             elif ":100:" in message:
                 splitat = message.find(':100:')
                 message = message.replace(":100:", "")
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=hun)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             elif ":cool:" in message:
                 splitat = message.find(':cool:')
                 message = message.replace(":cool:", "")
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=cool)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             elif ":cry:" in message:
                 splitat = message.find(':cry:')
                 message = message.replace(":cry:", "")
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=cry)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             elif ":smiley:" in message:
                 splitat = message.find(':smiley:')
                 message = message.replace(":smiley:", "")
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=smiley)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             elif ":tired:" in message:
                 splitat = message.find(':tired:')
                 message = message.replace(":tired:", "")
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=tired)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             elif ":yum:" in message:
                 splitat = message.find(':yum:')
                 message = message.replace(":yum:", "")
                 first, last = message[:splitat], message[splitat:]
                 msgHis.insert(tk.END, first)
                 msgHis.image_create(tk.END, image=yum)
-                msgHis.insert(tk.END, last)
+                msgHis.insert(tk.END, last + '\n')
             else:
                 msgHis.insert(tk.END, message+"\n")
         except OSError:
@@ -114,10 +114,6 @@ window.protocol("WM_DELETE_WINDOW", close)
 
 #Get HOST and PORT, if net specified set defaults
 HOST = input('Enter host: ')
-if not HOST:
-    HOST = '127.0.0.1'
-else:
-    HOST = int(HOST)
 
 PORT = input('Enter port: ')
 if not PORT:
