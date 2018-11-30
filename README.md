@@ -30,11 +30,11 @@ Week 6: Be ready to deliver a fully functional chat program. <br />
 # Comments
 1. In addition to supporting multiple clients at the same time and exchanging text messages, do you plan to add any other features to make it more fun? List a tentative of features that you plan to add. (RESOLVED)
 
-# Presentation
+# Post Completion
 ## Features
-- GUI
-- Emoji
-- Screen-names
+- GUI: Fully functional GUI with a message box and chat display window
+- Emoji: A small set of emoji that can be accessed through a !emoji command
+- Screen-names: Upon entering the chat room, the user may select a name
 ## Demo Video
-https://sommol.tinytake.com/sf/MzEyMjMyMF85MzU3ODIy
+https://sommol.tinytake.com/sf/MzEyMzE1Ml85MzYwNjQ1
 
