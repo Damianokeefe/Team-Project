@@ -33,11 +33,11 @@ Week 6: Be ready to deliver a fully functional chat program.
 # Post Completion
 ## Getting Started
 - Installing:
-1. Download .zip containing the chat program's files.
-2. Extract .zip.
+1. Download ChatProgram.zip
+2. Extract ChatProgram.zip.
 3. Assure that Python is installed. If not, it can be downloaded here:https://www.python.org/downloads/
 - Running:
-1. Open the server's .exe file. A server will then be started on your local IP address.
+1. Open the server's .exe file, located in the ChatProgram folder. A server will then be started on your local IP address.
 2. Open the client's .exe file, located in the Client folder.
 3. Once the client has opened up a Python terminal, enter in the IP address of the server, as well as the port the server has started on (will be displayed on server start-up).
 4. Your chat client will now be open! To exit, either type {quit} or simply exit the window.
